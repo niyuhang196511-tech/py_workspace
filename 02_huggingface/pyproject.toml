@@ -1,7 +1,7 @@
 [project]
 name = "02-huggingface"
 version = "0.1.0"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.14"
 dependencies = [
     "accelerate>=1.15.0",
     "datasets>=5.1.0",
@@ -13,6 +13,8 @@ dependencies = [
     "peft>=0.21.2",
     "safetensors>=0.8.0",
     "scikit-learn>=1.9.1",
+    "torch>=2.15.0",
+    "torchvision>=0.29.2",
     "transformers>=5.22.1",
     "trl>=1.18.0",
 ]
