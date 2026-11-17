@@ -1,0 +1,114 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# 虚拟环境 (Virtual Environments)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.uv/
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.jupyter/
+
+# ==========================================
+# 代码检查与格式化工具缓存
+# ==========================================
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# 深度学习 / 机器学习模型权重与检查点 (PyTorch, Hugging Face, etc.)
+# ==========================================
+# 大模型权重文件
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+*.h5
+*.tflite
+
+# 训练中间过程与检查点目录
+checkpoint-*/
+**/checkpoint-*/
+trainer_results/
+**/trainer_results/
+classification_results/
+**/classification_results/
+sft_results/
+**/sft_results/
+output_dir/
+**/output_dir/
+runs/
+wandb/
+
+# ==========================================
+# 大数据集文件 (文件过大，不宜纳入版本控制)
+# ==========================================
+datas/
+data/
+*.csv
+*.parquet
+*.arrow
+*.tar.gz
+*.zip
+
+# ==========================================
+# 备份目录 (Backup)
+# ==========================================
+backup/
+**/backup/
+
+# ==========================================
+# 环境变量与密钥敏感文件
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# IDE / 编辑器配置
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
